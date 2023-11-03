@@ -144,7 +144,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #c8e6de;
+  background-image: -webkit-linear-gradient(left, #ccc 0%, #c8e6de 100%);
+  background-image: -moz-linear-gradient(left, #ccc 0%, #c8e6de 100%);
+  background-image: -ms-linear-gradient(left, #ccc 0%, #c8e6de 100%);
+  background-image: linear-gradient(to right, #ccc 0%, #c8e6de 100%);
   color: #171715;
   -webkit-overflow-scrolling: touch;
   background-attachment: fixed;
@@ -241,7 +244,7 @@ a {
   margin: 3px;
 }
 #container .left-col {
-  background: #32a6a8;
+  background: #000;
   width: 300px;
   position: fixed;
   -webkit-transition: all 0.2s ease-in;
