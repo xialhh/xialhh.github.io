@@ -272,9 +272,9 @@ a {
   z-index: 1;
 }
 #container .left-col .intrude-less {
-  width: 76%;
+  width: 100%;
   text-align: center;
-  margin: 112px auto 0;
+  margin: 30px auto 0;
 }
 #container .mid-col {
   position: absolute;
@@ -815,6 +815,10 @@ a {
 }
 #header .switch-part1 {
   left: 0;
+}
+#header .music-wyy {
+  width: 100%;
+  position: absolute;
 }
 #header .switch-part2 {
   left: 100%;
